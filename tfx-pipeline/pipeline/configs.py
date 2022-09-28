@@ -1,7 +1,7 @@
-# import tfx
+import os
 
 # Pipeline name will be used to identify this pipeline.
-PIPELINE_NAME = 'sentiment-classifier-tfx'
+PIPELINE_NAME = 'sentiment-analysis-tfx'
 
 # GCP related configs.
 
@@ -25,10 +25,17 @@ GCS_BUCKET_NAME = GOOGLE_CLOUD_PROJECT + '-vertex-default'
 
 GOOGLE_CLOUD_REGION = 'us-central1'
 
+# GCP
 TRANSFORM_MODULE_FILE = 'gs://{}/{}/modules/preprocessing.py'.format(GCS_BUCKET_NAME, PIPELINE_NAME)
 TRAIN_MODULE_FILE = 'gs://{}/{}/modules/model.py'.format(GCS_BUCKET_NAME, PIPELINE_NAME)
 TUNER_MODULE_PATH = 'gs://{}/{}/best_hyperparameters/'.format(GCS_BUCKET_NAME, PIPELINE_NAME)
 DATA_PATH = 'gs://{}/{}/data/'.format(GCS_BUCKET_NAME, PIPELINE_NAME)
+
+# LOCAL
+LOCAL_TRANSFORM_MODULE_FILE = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), r'../..', 'modules', 'preprocessing.py'))
+LOCAL_TRAIN_MODULE_FILE = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), r'../..', 'modules', 'model.py'))
+LOCAL_TUNER_MODULE_PATH = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), r'../..', 'modules', 'best_hyperparameters'))
+LOCAL_DATA_PATH = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), r'../..', 'modules', 'data'))
 
 # Following image will be used to run pipeline components run if Kubeflow
 # Pipelines used.

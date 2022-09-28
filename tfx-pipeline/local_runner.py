@@ -32,7 +32,6 @@ SERVING_MODEL_DIR = os.path.join(PIPELINE_ROOT, 'serving_model')
 #       Kubeflow), you can use a path starting "gs://YOUR_BUCKET_NAME/path" for
 #       DATA_PATH. For example,
 #       DATA_PATH = 'gs://bucket/chicago_taxi_trips/csv/'.
-DATA_PATH = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'modules', 'data'))
 
 def run():
   """Define a local pipeline."""
@@ -41,10 +40,10 @@ def run():
       pipeline.create_pipeline(
           pipeline_name=configs.PIPELINE_NAME,
           pipeline_root=PIPELINE_ROOT,
-          data_path=DATA_PATH,
-          preprocessing_module=configs.TRANSFORM_MODULE_FILE,
-          tuner_path=configs.TUNER_MODULE_PATH,
-          training_module=configs.TRAIN_MODULE_FILE,
+          data_path=configs.LOCAL_DATA_PATH,
+          preprocessing_module=configs.LOCAL_TRANSFORM_MODULE_FILE,
+          tuner_path=configs.LOCAL_TUNER_MODULE_PATH,
+          training_module=configs.LOCAL_TRAIN_MODULE_FILE,
           serving_model_dir=SERVING_MODEL_DIR,
           # TODO(step 7): (Optional) Uncomment here to use provide GCP related
           #               config for BigQuery with Beam DirectRunner.
