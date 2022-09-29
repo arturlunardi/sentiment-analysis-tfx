@@ -133,7 +133,7 @@ def model_builder(hp):
     # embed = hub.KerasLayer("https://tfhub.dev/google/universal-sentence-encoder-multilingual-large/3")
     
     # every feature is just a string, so it is shape = (1,)
-    inputs = tf.keras.Input(shape=(1,), name=_TEXT_FEATURE_KEYS[0], dtype=tf.string)
+    inputs = tf.keras.Input(shape=(1,), name=_transformed_name(_TEXT_FEATURE_KEYS[0]), dtype=tf.string)
     # flatten our tensors to 1 dimension
     reshaped_narrative = tf.reshape(inputs, [-1])
     # nn only works with numbers, so we should transform our inputs into numbers through embedding
