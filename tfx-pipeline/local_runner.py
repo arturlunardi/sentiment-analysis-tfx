@@ -1,7 +1,7 @@
 import os
 from absl import logging
 from pipeline import configs
-from pipeline import pipeline
+from pipeline import run_pipeline
 from tfx import v1 as tfx
 
 # TFX pipeline produces many output files and metadata. All output data will be
@@ -37,7 +37,7 @@ def run():
   """Define a local pipeline."""
 
   tfx.orchestration.LocalDagRunner().run(
-      pipeline.create_pipeline(
+      run_pipeline.create_pipeline(
           pipeline_name=configs.PIPELINE_NAME,
           pipeline_root=PIPELINE_ROOT,
           data_path=configs.LOCAL_DATA_PATH,

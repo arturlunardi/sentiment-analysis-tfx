@@ -1,7 +1,7 @@
 import os
 from absl import logging
 from pipeline import configs
-from pipeline import pipeline
+from pipeline import run_pipeline
 from tfx.orchestration.kubeflow.v2 import kubeflow_v2_dag_runner
 
 
@@ -31,7 +31,7 @@ def run():
     runner_config = kubeflow_v2_dag_runner.KubeflowV2DagRunnerConfig(
       default_image=configs.PIPELINE_IMAGE)
 
-    dsl_pipeline = pipeline.create_pipeline(pipeline_name=configs.PIPELINE_NAME,
+    dsl_pipeline = run_pipeline.create_pipeline(pipeline_name=configs.PIPELINE_NAME,
                         pipeline_root=PIPELINE_ROOT,
                         data_path=configs.DATA_PATH,
                         preprocessing_module=configs.TRANSFORM_MODULE_FILE,
