@@ -20,6 +20,7 @@ from tfx.proto import trainer_pb2
 from tfx.types import standard_artifacts
 from tfx.types import Channel
 from tfx.types.standard_artifacts import Model, ModelBlessing
+from ml_metadata.proto import metadata_store_pb2
 
 
 def create_pipeline(
@@ -34,6 +35,7 @@ def create_pipeline(
     ai_platform_training_args: Optional[Dict[Text, Text]] = None,
     ai_platform_serving_args: Optional[Dict[Text, Text]] = None,
     enable_cache: Optional[bool] = False,
+    metadata_connection_co  nfig: Optional[metadata_store_pb2.ConnectionConfig] = None,
     ) -> pipeline.Pipeline:
     """Implements the pipeline with TFX."""
 
@@ -179,5 +181,6 @@ def create_pipeline(
         pipeline_root=pipeline_root,
         components=components,
         beam_pipeline_args=beam_pipeline_args,
-        enable_cache=enable_cache
+        enable_cache=enable_cache,
+        metadata_connection_config=metadata_connection_config,
     )
