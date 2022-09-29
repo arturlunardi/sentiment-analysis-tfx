@@ -8,7 +8,7 @@ sentiment,title
 1,Emissão de visto para brasileiro ir aos EUA dispara e fila em consulados chega a nove meses
 2,País tem 312 grupos de reeducação de autores de violência doméstica
 1,Eliane analisa ida da comitiva brasileira à Rússia
-1,Rússia fala em esforço diplomático contínuo para reduzir tensão na Ucrânia
+0,Rússia fala em esforço diplomático contínuo para reduzir tensão na Ucrânia
 1,Bolsonaro vai à Rússia tentar sair do isolamento
 0,Chanceler da Alemanha vai a Moscou tentar impedir ação militar russa contra a Ucrânia
 0,Fifa tem de parar de brincar sobre título do Palmeiras em 1951
@@ -119,7 +119,7 @@ sentiment,title
 0,"Sem dados de 3 UFs, média de mortes por Covid no Brasil cai para 881"
 2,Vídeo: policial militar de folga salva bebê de 16 dias engasgado no DF
 2,"Após 2 anos de ensino remoto, 441 mil alunos voltam às escolas no DF"
-1,"Vídeo: mulher luta com ladrão, vai à casa dele e pega celular roubado"
+0,"Vídeo: mulher luta com ladrão, vai à casa dele e pega celular roubado"
 2,Primeira coronel trans do Brasil é da Polícia Militar do DF: “Orgulho”
 1,"Mega-Sena: três apostas do DF acertam a quina e 98, a quadra"
 0,Vídeo. Dupla rouba mochilas de papelaria e é flagrada por câmeras
@@ -131,7 +131,7 @@ sentiment,title
 1,Panela francesa volta ao Brasil para explorar mercado de presentes
 0,O compromisso com o atraso e a má alocação de talentos
 0,"Dos antigos às fake news, novas censuras são tão patéticas quanto as velhas"
-1,Criptocasal é divisor de águas nos crimes com bitcoins
+0,Criptocasal é divisor de águas nos crimes com bitcoins
 0,Como julgamento de neonazista gaúcho determinou como Brasil vê a liberdade de expressão
 2,Empresário americano anuncia três novas missões espaciais com a SpaceX
 0,Vídeo mostra suposta omissão da PM a torcedor baleado após derrota do Palmeiras
@@ -176,7 +176,7 @@ sentiment,title
 1,RIP Ivan Reitman: confira as comédias inesquecíveis do diretor de 'Os Caça-Fantasmas'
 1,Nova espécie de verme com jeitão alienígena é batizado em homenagem à pandemia
 2,E-commerce de moda sustentável lança roupas com fibra de banana
-2,"Cervo nativo da Índia é encontrado no Centro de São Joaquim, na Serra de SC"
+1,"Cervo nativo da Índia é encontrado no Centro de São Joaquim, na Serra de SC"
 1,Davi (Rafael Vitti) será preso após a morte de Elisa (Larissa Manoela)
 1,"Mulheres são melhores que homens à frente de cirurgias, sugere estudo"
 1,Patrick Sampaio sobre Artur de Além da Ilusão: “Um idealista”
@@ -211,7 +211,7 @@ sentiment,title
 0,Saiba por que Bárbara deve sair com recorde de rejeição do BBB22
 1,Thaís Braz posta com ex-BBBs e brinca: “Eu e o Acrebiverso”
 1,Netflix divulga primeiro teaser da segunda temporada de Bridgerton
-2,BBB22. Namorado de Bárbara comenta jogo da sister: “Grande jogadora”
+1,BBB22. Namorado de Bárbara comenta jogo da sister: “Grande jogadora”
 0,Um Lugar ao Sol: novo namorado de Bárbara dá no cano e irrita a ricaça
 1,Justiça de SP nega ação de Roberto e Erasmo Carlos contra Warner
 1,Dia Internacional da Doação de Livros: veja como fazer o bem
@@ -308,7 +308,7 @@ sentiment,title
 0,"BBB22: durante Raio-X, Maria assume mais uma vez que agrediu Natália"
 1,Jogos muito caros? 6 dicas para comprar na promoção
 1,Influencer que quer 'maior bumbum do mundo' diz não conseguir namorado
-1,Mulher de 76 anos perde quase 30kg e vira influencer fitness após 'ultimato' pela saúde
+2,Mulher de 76 anos perde quase 30kg e vira influencer fitness após 'ultimato' pela saúde
 0,Problemas no fígado e mais: os perigos das cápsulas com 'ervas para perder peso'
 2,Famosas falam abertamente sobre menstruação e ajudam a derrubar tabus
 2,"Após perder filho para o câncer, pai cria dispositivo que monitora sinais vitais de crianças"
@@ -523,7 +523,7 @@ sentiment,title
 1,Saiba quem foi primeiro membro da família real a conhecer Lilibet
 0,Fachin reage a Bolsonaro e diz que TSE irá combater ameaças do populismo autoritário
 1,Acordos com redes sociais para eleições no Brasil ficam aquém das políticas nos Estados Unidos
-1,Herdeiros também receberão dinheiro esquecido em bancos; veja o que fazer
+2,Herdeiros também receberão dinheiro esquecido em bancos; veja o que fazer
 0,Alimentação e bebidas fazem pobres sentirem quase o dobro da inflação frente a ricos
 0,Justiça Militar condena sargento flagrado com cocaína no avião da FAB a 14 anos de prisão
 1,"R$ 7,9 mi da Nota Paulista vencem nesta terça (15);"
@@ -622,7 +622,6 @@ sentiment,title
 0,Natália revela comentário de Maria: 'Bem feito'
 1,Nat chora ao saber de expulsão: 'Não queria'
 1,Mãe de Maria chora ao falar sobre expulsão da filha
-1,Assinante vê repercussão da saída AO VIVO
 0,Valdo: negacionismo de Bolsonaro irrita aliados
 0,Arnaldo Jabor morre por complicações de AVC aos 81 anos
 0,"'Morreu pedaço de mim', diz Cacá; veja repercussão"
@@ -650,7 +649,6 @@ sentiment,title
 0,Temporada de cruzeiros tem suspensão prorrogada até 4 de março
 1,É possível consultar se familiar falecido tem saldo a receber
 1,TSE espera ação do Congresso antes de acionar Telegram
-1,Assinante vê repercussão da saída AO VIVO
 1,Irmã relata ataques na web e planeja reencontro
 2,Reino Unido quer dar fim a isolamento em caso de Covid
 1,AMB cobra de Queiroga diretrizes de tratamento
@@ -749,8 +747,8 @@ sentiment,title
 1,"Antes de se encontrar com Putin, Bolsonaro faz visita ao Kremlin e se compara a Pedro II"
 1,Rússia diz que retirou mais tropas da fronteira com a Ucrânia e encerrou exercícios na Crimeia
 0,"Messi perde pênalti, Neymar joga pouco, mas Mbappé define no fim e PSG bate Real Madrid"
-1,Chuvas em Petrópolis deixam ao menos 38 mortos
-0,"CPI da Pandemia não apresentou provas à PGR, diz Aras à CNN"
+0,Chuvas em Petrópolis deixam ao menos 38 mortos
+1,"CPI da Pandemia não apresentou provas à PGR, diz Aras à CNN"
 0,Itália emite mandado de prisão internacional contra Robinho
 1,Microsoft vive maratona de compras
 1,"MDB, União Brasil e PSDB definem se farão federação em um mês"
@@ -1032,7 +1030,7 @@ sentiment,title
 0,ES: Suspeito de aplicar golpe de R$ 1 milhão em universitários é preso
 0,Chuva forte no ES deixa 64 pessoas fora de casa e uma desaparecida
 0,"GO: preso por engano, mecânico é solto e chora ao rever família; vídeo"
-1,Inmet emite alerta para temporal com ventos de até 100km/h no DF
+0,Inmet emite alerta para temporal com ventos de até 100km/h no DF
 0,Professor do DF morre após complicações em procedimento cirúrgico
 0,Homem é preso em Águas Claras por atirar em rival após briga de cães
 1,Companhia aérea zoa Djokovic após fala sobre vacinas em entrevista
@@ -1127,7 +1125,7 @@ sentiment,title
 1,Além da Ilusão: casamento de Julinha e Constantino entra em crise
 1,"Medida Provisória, de Lázaro Ramos, ganha trailer e data de estreia"
 1,Nota oficial contra Moro empurra Polícia Federal para debate eleitoral
-1,"SP vai aplicar vacina contra Covid em alunos nas escolas públicas e privadas, diz Doria"
+2,"SP vai aplicar vacina contra Covid em alunos nas escolas públicas e privadas, diz Doria"
 1,Estados reagem a novo texto de projeto que altera ICMS de combustíveis
 1,Motoristas preparam aplicativo para concorrer com Uber e 99 em SP
 1,Três formas para viver de renda de imóveis; veja qual prefiro
@@ -1178,7 +1176,7 @@ sentiment,title
 1,DG comenta sobre 1º beijo de Jade e PA: 'Ela correu um pouquinho’
 1,Bárbara opina sobre Jade e Arthur: ‘Essa intuição dela é mais uma paranoia’
 1,Ex-sister observa Gustavo: 'Estava louca por essa rivalidade'
-0,Reconhecido corpo da filha de mulher que usou enxada
+1,Reconhecido corpo da filha de mulher que usou enxada
 1,Jovem era do Rio e foi visitar afilhada há 4 dias
 0,Diretora de projeto social para crianças morre soterrada
 0,Repórter chora ao vivo ao ver tragédia no RJ
@@ -1599,9 +1597,9 @@ sentiment,title
 0,Homem é preso por tentar matar esposa com golpes de cabo de vassoura
 2,DF abre 852 vagas em cursos gratuitos profissionalizantes. Veja opções
 0,"Vídeo: homem tenta fugir da PMDF, mas fica sem gasolina e acaba preso"
-1,"Em um ano, 64 mil pessoas ingressaram no mercado de trabalho no DF"
+2,"Em um ano, 64 mil pessoas ingressaram no mercado de trabalho no DF"
 0,Vídeo: ladrão clona controle e furta R$ 80 mil de perfumes em shopping
-1,Carro que impedia passagem dos Bombeiros é removido pelo Detran-DF
+2,Carro que impedia passagem dos Bombeiros é removido pelo Detran-DF
 0,Vídeo mostra perseguição a agente da PCDF que furou blitz da PM
 1,Tem experiência como mecânico? Há vagas de emprego para você nesta 3ª
 0,Filho que matou pai no DF sofre de delírio e mania de perseguição
@@ -1637,7 +1635,7 @@ sentiment,title
 1,Uncharted confirma Tom Holland como sucesso de bilheteria em Hollywood
 1,BBB22: Eliezer sai em defesa de Vyni após brother virar alvo da casa
 1,Moro soltou Lula
-1,"'Tremembé está virando um bairro degradado', diz leitor"
+0,"'Tremembé está virando um bairro degradado', diz leitor"
 1,Paranoia ou sexto sentido? Veja como cada signo lida com a intuição
 1,Horóscopo 2022: confira a previsão de hoje (22/02) para seu signo
 1,Que delícia! Prepare a receita do pastel recheado de camarão
@@ -1736,9 +1734,9 @@ sentiment,title
 1,Tiktoker viraliza ao ensinar civis a dirigir tanques de guerra
 1,"Ucrânia pede à Rússia que não destrua Catedral de Santa Sofia, em Kiev"
 1,Karol G fala sobre sua estreia como atriz em série da Netflix
-1,Veja as empresas que deixaram a Rússia após início da guerra
+0,Veja as empresas que deixaram a Rússia após início da guerra
 0,Navio com milhares de carros de luxo afunda no Oceano Atlântico
-1,Centro de Doutrina do Exército Brasileiro analisa guerra na Ucrânia
+0,Centro de Doutrina do Exército Brasileiro analisa guerra na Ucrânia
 0,Novos ataques deixam mortos na Ucrânia; Zelensky pede cessar-fogo até negociações; SIGA
 0,Brasil se aproxima da marca de 650 mil mortos por Covid-19
 1,PRÉ-JOGO: Flu encara o Millonarios e precisa de empate para avançar
@@ -1879,7 +1877,7 @@ sentiment,title
 1,Jade descobrindo que cebola faz a gente chorar é a melhor coisa que você vai ver hoje
 2,"China fala com Ucrânia, muda tom da diplomacia e promete esforços para fim da guerra"
 0,"EUA enviará militares a países vizinhos da Ucrânia, anuncia Biden"
-1,TVs fora do ar e cidades cercadas: o 6º dia da guerra Rússia-Ucrânia
+0,TVs fora do ar e cidades cercadas: o 6º dia da guerra Rússia-Ucrânia
 1,Fluminense derrota Millonarios por 2 x 0 e avança na pré-Libertadores
 1,"Larissa é eliminada com 88,59% dos votos"
 1,BBB22. Jade sobre ex João Guilherme: “Me ensinou a amar de verdade”
@@ -1958,7 +1956,7 @@ sentiment,title
 1,Globo produz duas novelas das nove ao mesmo tempo: entenda
 1,"Em laudo, PF não vê adulteração em vídeo associado a Doria em 2018"
 1,Bolsonaro levou arrecadadores e doadores de campanha para encontro no Planalto; leia análise
-1,Mercado já vê Selic a até 14% com guerra na Ucrânia e disparada do petróleo
+0,Mercado já vê Selic a até 14% com guerra na Ucrânia e disparada do petróleo
 1,Ucrânia é potência paralímpica que tem população com deficiência invisível
 1,Delegado Olim relatará processo de cassação de Arthur do Val
 2,Expresso: SP desobriga máscaras em espaços abertos
@@ -2056,7 +2054,7 @@ sentiment,title
 1,Poloneses deixam brinquedos e casacos na fronteira com Ucrânia
 1,"O que esperar das reuniões de juros na Europa, no Brasil e nos EUA"
 0,"Siga: metade da população já deixou Kiev; refugiados passam de 2,3 mi"
-1,Rússia diz que saberá com militares o ocorrido em Mariupol
+0,Rússia diz que saberá com militares o ocorrido em Mariupol
 0,"Ataque a hospital mata 3, sendo uma criança, diz vice-prefeito"
 1,'Russkiy Mir': o que é o 'Mundo Russo' que Putin quer unificar
 1,Live de lançamento oficial anuncia as novidades do Cartola e Cartola Express
@@ -2106,7 +2104,7 @@ sentiment,title
 1,Jessilane sugere formação de Paredão com brothers do Camarote
 1,"Quais sintomas e como detectar o aneurisma cerebral, como o diagnosticado em Juliette"
 1,"'Não volto nunca mais ao Rio', diz turista esfaqueada em Copacabana"
-1,Arthur do Val violou direito internacional ao fazer coquetel molotov na Ucrânia
+0,Arthur do Val violou direito internacional ao fazer coquetel molotov na Ucrânia
 0,Veja quais armas o Ocidente tem fornecido à Ucrânia e como elas chegam até o destino
 1,Mega-Sena: ninguém acerta as seis dezenas e prêmio vai a R$ 130 milhões
 1,Presidente do PSG e Leonardo tentam invadir vestiário de árbitro após eliminação
@@ -2172,7 +2170,7 @@ sentiment,title
 2,YouTube decide remover vídeos com alegações falsas de fraude na eleição de 2018
 1,Anitta diz que já pode se aposentar após sucesso da música Envolver
 1,Gaslighting? Maíra Cardi expõe VAR de Laís para defender Arthur Aguiar
-1,"Afetado por guerra e pandemia, sorteio da Copa tem regras definidas"
+0,"Afetado por guerra e pandemia, sorteio da Copa tem regras definidas"
 0,Corpo de idoso desaparecido há 10 anos é encontrado em freezer de pub
 2,TSE volta a chamar Telegram para discutir combate às fake news nas eleições
 1,Concursos militares ganham força com afago do governo e freio em outras seleções
@@ -2205,8 +2203,8 @@ sentiment,title
 1,Boninho se declara para Ana Furtado em aniversário de 26 anos de união
 1,Um Lugar ao Sol: Santiago toma decisão drástica por causa de Christian
 1,Pâmella Holanda se filia ao Partido Liberal visando eleições de 2022
-1,"Com 5 mil vagas, Detran-DF anuncia inscrições para a CNH Social"
-1,Presidente da Petrobras é convidado a explicar dividendos no Senado
+2,"Com 5 mil vagas, Detran-DF anuncia inscrições para a CNH Social"
+2,Presidente da Petrobras é convidado a explicar dividendos no Senado
 1,Que Neymar é esse que prefere ser um popstar e não aceita conselhos?
 2,"Curso no DF oferece 1,2 mil vagas para empoderamento feminino"
 0,Abrigos antibomba se transformam em maternidade na cidade de Kiev
@@ -2220,7 +2218,7 @@ sentiment,title
 1,"São Paulo x São Bernardo: onde assistir, horário e escalação das equipes"
 0,Idosos ucranianos se refugiam em estações de metrô
 1,Oposição aciona órgãos sobre favorecimento de pastores no MEC
-1,MEC teria lobby de pastores para liberação de verbas a cidades
+0,MEC teria lobby de pastores para liberação de verbas a cidades
 1,Ouça áudio: ministro cita pedido de Bolsonaro para favorecer pastores
 1,"Após ter áudio divulgado, Milton Ribeiro nega favorecimento"
 1,Bernardinho se emociona e cita família por deixar França: 'Triste e desolado'
@@ -2267,7 +2265,7 @@ sentiment,title
 1,Menos é Mais mata saudades de Brasília em show para 15 mil pessoas
 0,Pfizer faz recall de remédios para pressão alta com impurezas
 1,"SBT vai fazer novela sobre o clássico Romeu e Julieta, de Shakespeare"
-1,Thais Carla vai parar no hospital após escorregar no vômito da filha
+0,Thais Carla vai parar no hospital após escorregar no vômito da filha
 1,Bancada evangélica já estuda pedir demissão de ministro da Educação
 1,Viih Tube grávida? Ex-BBB faz teste após sentir mal-estar e tonturas
 1,Netflix divulga estreia dos episódios finais de Grace and Frankie
@@ -2293,7 +2291,7 @@ sentiment,title
 1,"Oscar premiou 14 vezes a Itália, e nunca o Brasil; veja lista de todos os vencedores"
 2,Melhor IPA do Brasil é de cervejaria de Santos; conheça
 1,Débora Lamm viverá matemática grega em 'Detetives do Prédio Azul'
-1,"Pastor pediu 1 kg de ouro para liberar dinheiro no MEC, diz prefeito; ouça áudio"
+0,"Pastor pediu 1 kg de ouro para liberar dinheiro no MEC, diz prefeito; ouça áudio"
 1,"Nomeado por Ribeiro, aliado de religiosos ganhou cargo na pasta"
 1,Como Alckmin foi promovido de 'picolé de chuchu' a fiador de Lula
 1,Empresários pressionam governo contra importação da China por pessoa física
@@ -2372,7 +2370,7 @@ sentiment,title
 1,Quatro dicas (e cremes) para manter a hidratação dos cabelos cacheados
 1,Especialista revela 6 principais alimentos que causam mau hálito
 0,"Casos de dengue cresceram 43,9%. Saiba quais são os primeiros sintomas"
-1,Mãe de MC Kevin: “Investigação foi prejudicada por preconceito”
+0,Mãe de MC Kevin: “Investigação foi prejudicada por preconceito”
 1,"Alckmin se filia ao PSB isolado, mas com missão de ampliar apoio a Lula"
 1,Will Smith aparece como favorito ao Oscar 2022: veja os motivos
 1,Ucraniana Natália Guchenkova vende doces com toque europeu em Brasília
@@ -2475,7 +2473,7 @@ sentiment,title
 1,Governo muda data de pagamento do INSS de MEIs e domésticas; veja como ficará
 1,"Beber qualquer quantidade de álcool coloca o coração em risco, diz estudo"
 0,"Rodrigo Mussi sofre acidente de carro, passa por cirurgia na cabeça e estado é delicado"
-1,Papa pede perdão por violência contra crianças indígenas em escolas católicas no Canadá
+0,Papa pede perdão por violência contra crianças indígenas em escolas católicas no Canadá
 2,Empresa cria sala escura para que funcionário com visão rara possa trabalhar sem barreiras
 2,"Aumento de professores negros nas universidades é efeito das cotas, diz primeira reitora negra"
 1,Por mais Helenas na Ciência
@@ -2587,7 +2585,7 @@ sentiment,title
 1,Olívia revelará a Isadora que namoro com Rafael é de mentira
 1,Beber moderadamente protege o coração? Novo estudo oferece respostas
 1,"Saiba quais são os sinais iniciais da afasia, doença de Bruce Willis"
-1,Gusttavo Lima se machuca ao levar cabeçada de criança. Veja vídeo!
+0,Gusttavo Lima se machuca ao levar cabeçada de criança. Veja vídeo!
 1,BBB22: Gustavo vence a Prova do Líder e terá poder especial
 1,Drinques em jarra: 5 lugares para beber e brindar no DF
 1,Maiara e Maraisa sobre o The Voice Kids: “Público infantil é incrível”
@@ -2606,7 +2604,7 @@ sentiment,title
 0,Quatro alunos da UFPR são presos por lesão corporal e constrangimento em trote
 1,FPF diz que vídeos de Ana Paula em São Paulo x Palmeiras foram 'inadequados'
 1,"Ex-United: Anderson podia ser melhor do mundo, mas ‘não ligava pra nada’"
-1,Cruzeiro sofre novo 'transfer ban' e CBF bloqueia registros de jogadores
+0,Cruzeiro sofre novo 'transfer ban' e CBF bloqueia registros de jogadores
 1,Cachorra resgatada se emociona ao ganhar primeiro presente
 1,"Fotógrafo das famosas, Patrick Demarchelier morre aos 78 anos"
 1,Tapa de Will Smith em Chris Rock no Oscar inspira tatuagens
@@ -2827,7 +2825,7 @@ sentiment,title
 1,"Veja ovos 'diferentões': de torta de morango, com vinho, cannoli e muito mais"
 1,Descubra por que os coelhos são o símbolo da Páscoa
 1,"Petrobras reduz preço do gás de cozinha em 5,58%"
-1,Luiza Possi celebra a convivência de filhos e cães: 'Vão crescer respeitando os animais'
+2,Luiza Possi celebra a convivência de filhos e cães: 'Vão crescer respeitando os animais'
 1,Ewbank: 'Sempre separo um tempo de qualidade para os filhos de quatro patas'
 1,Dani Calabresa faz declaração para o seu cachorro: 'Amor que transformou meu coração'
 2,Fiocruz aponta extinção da terceira onda de Covid no Brasil
@@ -2877,6 +2875,8 @@ sentiment,title
 1,Harry e Meghan planejam mudança para Nova York. Saiba motivo
 1,Faustão: conheça trajetória de um dos maiores apresentadores do Brasil
 1,A trajetória de Belchior
+2,"País tem 19 mil vagas em 167 concursos, com salários de até R$ 24 mil"
+2,"País tem 18 mil vagas em 171 concursos, com salários de até R$ 22 mil"
 0,Liga-RJ diz que entidade 'não tem que dar suporte' à família de menina que teve perna amputada
 1,"BBB22: após eliminação, Scooby explica apagões e revela se usa maconha"
 1,"Musa do OnlyFans, Luiza Marcato vai desfilar com mini tapa-sexo em SP"
@@ -2983,7 +2983,7 @@ sentiment,title
 0,Homem que matou 2 jovens em chácara no PR é condenado a 18 anos
 0,Criança atingida por coqueiro em Sergipe está há uma semana em coma
 0,Objetos são furtados de carro parado em pátio de delegacia do DF
-1,Queiroga diz que passaporte da vacina “não ajudou” na imunização
+0,Queiroga diz que passaporte da vacina “não ajudou” na imunização
 1,Comerciais entre as séries e filmes viram a nova realidade nos serviços de streaming
 0,Morre menina que sofreu acidente com carro alegórico na Sapucaí
 0,"Próxima fase da guerra será crucial para Rússia e Ucrânia, dizem EUA"
@@ -3204,6 +3204,7 @@ sentiment,title
 0,"Em carta, acusado da morte de Ariane diz sofrer na prisão: “Desespero”"
 0,Família pede prisão preventiva de empresária que matou mulher em GO
 0,"Morre a procuradora aposentada do DF, Hely Vicentini, aos 83 anos"
+2,"País tem 17 mil vagas em 157 concursos, com salários de até R$ 30 mil"
 1,Paraná completa 4 milhões de passageiros em trens na Serra do Mar
 2,Brasil faz campanha contra influenza e sarampo neste sábado
 0,Aviões da Gol e Azul colidem em pátio do Aeroporto de Viracopos
@@ -3462,7 +3463,7 @@ sentiment,title
 1,Depp ri em tribunal quando perguntam a guarda-costas se viu pênis do ator
 1,Arthur Aguiar pede cessar fogo aos haters após BBB: 'Não dão trégua'
 1,Organizador de ato admite que parte dos manifestantes quer pedir ‘destituição’ de ministros do STF
-1,Busca por terrenos vira 'guerra' entre construtoras e inflaciona preços
+0,Busca por terrenos vira 'guerra' entre construtoras e inflaciona preços
 1,Warren Buffett diz que não compraria todo o bitcoin do mundo nem por US$ 25
 1,SIGA: Scarpa vira para o Verdão contra o Juazeirense pela Copa BR
 2,Cientistas desenvolvem combustível à base de molécula de planta
@@ -3471,6 +3472,7 @@ sentiment,title
 0,Avião espião russo viola espaço aéreo da Suécia: 'Inaceitável'
 1,Blog: fala de Lula sobre Bolsonaro vira alvo de polêmica nas redes
 1,"Em tom de campanha, Bolsonaro dá recados ao STF em discurso"
+2,"País tem 18 mil vagas em 152 concursos, com salários de até R$ 30 mil"
 0,“Me ajuda”: menina que pediu socorro era abusada desde começo do ano
 1,"Grazi Massafera elogia foto do ex, Caio Castro, com a namorada: 'Lindezas'"
 1,Fã de Whindersson descobre 9 anos depois que foi convidada pelo ídolo para ir ao cinema
@@ -3483,7 +3485,7 @@ sentiment,title
 1,Comandante da FAB e Hasselmann batem boca após expulsão de militar
 1,Vídeos: polícia israelense reprime funeral de jornalista palestina
 1,Exército nega ajuda a comitiva parlamentar em visita a terras Yanomami
-1,Corpo de Bombeiros expulsa sargento condenado no caso Marielle Franco
+2,Corpo de Bombeiros expulsa sargento condenado no caso Marielle Franco
 0,Homem é preso suspeito de furtar ambulância na porta de hospital em GO
 0,Dor da despedida: família homenageia mulher que teve corpo carbonizado
 1,Duas regiões do DF ficarão sem energia neste sábado. Veja quais
@@ -3786,7 +3788,7 @@ sentiment,title
 1,Como pequenas cidades do Amapá viraram “campeãs” do orçamento secreto
 0,"Preso embriagado, empresário urina e chama venezuelano de Che Guevara"
 0,RJ: corpo de perito morto por militares é encontrado no Rio Guandu
-1,"País tem 22 mil vagas em 158 concursos, com salários de até R$ 30 mil"
+2,"País tem 22 mil vagas em 158 concursos, com salários de até R$ 30 mil"
 1,Guedes confirma substituto de Sachsida no Ministério da Economia
 1,Bolsonaro dá sinais de fraqueza e sabe do risco de perder no 1º turno
 1,Deputado propõe honraria a empresa acusada por CPI de emitir fake news
@@ -3879,6 +3881,7 @@ sentiment,title
 1,Veja 3 animações que retratam relações familiares para assistir com as crianças
 1,'Homem-Aranha' chegava há 20 anos aos cinemas; veja como elenco mudou
 1,"“Situação inspira cuidados”, alerta Zovatto sobre democracia no Brasil"
+2,TRF-2 condena homem por postagem homofóbica em rede social
 1,Gabriel Jesus encerra jejum com a Seleção e fala sobre futuro
 1,"Dana White, do UFC, esnoba o boxe: “Jamais entrarei nesse pesadelo“"
 1,LeBron James se torna primeiro atleta bilionário da NBA em atividade
@@ -3891,7 +3894,7 @@ sentiment,title
 1,Filha de Edir Macedo é chamada para assumir novela da Record
 1,Exposição em 3D homenageia o centenário de Bibi Ferreira
 1,Luana Piovani se irrita com fãs pedindo dinheiro e indica Luciano Huck
-1,Rua com três escolas em Águas Claras não tem faixa de pedestre
+0,Rua com três escolas em Águas Claras não tem faixa de pedestre
 1,Neto debocha de Alexandre Pato: “Vai para a Copa do Pateta!”
 1,"Traída por Pasquim, Suzana Pires diz: “Cara incrível, pra ser amigo”"
 1,"Liverpool quer ex-Fluminense para substituir Mané, diz jornal"
@@ -3932,7 +3935,7 @@ sentiment,title
 1,Anitta passa trote em amigos ao colocar estátua para falar em ligações
 0,PE acha último corpo e encerra buscas com 128 mortos
 0,Chefe da Defesa Civil do Recife é réu por desvio
-1,Estudos mostram quem são os super-resistentes à Covid
+2,Estudos mostram quem são os super-resistentes à Covid
 1,Grupo de 'invictos' após 2 anos está cada vez menor
 1,"Conheça as 'dark kitchens', galpões de cozinha de delivery"
 1,Bosswares: o programa que vigia funcionários
@@ -3954,7 +3957,7 @@ sentiment,title
 0,Exame encontra esferas escuras no organismo de jovem que pode ter sido envenenado pela madrasta
 0,Chega a 127 o número de mortos em Pernambuco; Estado divulga nomes das vítimas
 0,Thomas Friedman: Invasão da Ucrânia ecoa avanço de Hitler sobre a Europa
-1,Ucrânia acusa Rússia de roubar sistemas de segurança da usina nuclear de Chernobyl
+0,Ucrânia acusa Rússia de roubar sistemas de segurança da usina nuclear de Chernobyl
 1,Jubileu de Platina: rainha Elizabeth sente desconforto e não participará de missa
 1,Ronaldo vai pedalar 500 km para cumprir promessa após acesso do Valladolid
 1,Como a metade dos maiores negócios do futebol brasileiro foi parar nas mãos de dois agentes
@@ -3998,7 +4001,7 @@ sentiment,title
 1,Reserva de ações da Eletrobras começa hoje; confira como usar o FGTS
 1,Requião participa de sabatina com pré-candidatos ao Governo do PR; assista
 1,"Entenda o PIB do 1º tri em 5 pontos, quiz da semana e o que importa no mercado"
-1,Anatel adia ativação do 5G puro em 60 dias por falta de equipamentos
+0,Anatel adia ativação do 5G puro em 60 dias por falta de equipamentos
 1,"Por influência humana, baratas agora evitam doces"
 1,Varejo farmacêutico não deve aderir a vacina contra a Covid no primeiro momento
 0,Faltam professores para 17% das aulas do novo ensino médio em São Paulo
@@ -4097,7 +4100,7 @@ sentiment,title
 1,Bianca defende planejamento de redes que inclui fotos com o filho
 1,Taís Araújo defende descriminalização do aborto: “Estão morrendo”
 1,Bruno Henrique vai operar o joelho e só volta a jogar em 2023
-1,Santos demite acusado de tentar subornar jogadora do Bragantino
+0,Santos demite acusado de tentar subornar jogadora do Bragantino
 1,'Pantanal': José Lucas se declara para Juma
 1,Juma atira em Jove e desiste de se casar com ele
 1,Petrobras: diretor de exploração assume como interino
@@ -4195,7 +4198,7 @@ sentiment,title
 0,Jovem de 27 anos teve complicação pós-cirurgia
 1,Inverno começou às 6h14; veja o que esperar da estação
 1,La Niña deve deixar o tempo frio até setembro
-1,OAB fará defesa de menina estuprada e impedida de abortar
+2,OAB fará defesa de menina estuprada e impedida de abortar
 1,Luva de Pedreiro e mais influencers que deram pausa na web
 1,Mané chega a Munique para assinar com Bayern
 1,"Apple revela detalhes de carregador duplo, que custará R$ 559"
@@ -4229,7 +4232,7 @@ sentiment,title
 0,Mulher é presa por furto de energia em casa de luxo no Rio de Janeiro
 0,"Em áudio vazado, empresário expõe Simaria e duplas que “se odeiam”"
 1,Empresário analisa briga de Simone e Simaria: “Dupla não tem reserva”
-1,"Mesmo com militares, ocorrências dobram em escolas militarizadas do DF"
+0,"Mesmo com militares, ocorrências dobram em escolas militarizadas do DF"
 0,"Conheça Gleycy Correia, ex-miss que morreu após cirurgia de amigdalite"
 0,Ex-miss Gleycy Correia morre após complicações em cirurgia de amigdalite
 1,"Pivô de crise entre TSE e militares, general fica calado em reunião sobre urnas"
@@ -4263,7 +4266,7 @@ sentiment,title
 1,Programa anti-homofobia não investiu em políticas para LGBTs em 2022
 1,Cai de boca todo mundo: 4 técnicas para uma chupada fatal
 1,Pesquisa: 62% dos brasileiros presenciaram ações de facções onde vivem
-1,"Covid: em meio a nova onda, Saúde extingue secretaria e câmara técnica"
+0,"Covid: em meio a nova onda, Saúde extingue secretaria e câmara técnica"
 1,RJ investiga cinco novos casos suspeitos de varíola dos macacos
 1,Funai publica diretrizes sobre tratamento de indígenas na Justiça
 0,Armas de fogo: homem é preso pela PF no Rio por tráfico internacional
@@ -4389,7 +4392,7 @@ sentiment,title
 1,Cantora diz que teve show encerrado por não “mandar alô” para prefeito
 1,Vídeo: caças da FAB atiram em avião que carregava 500 kg de cocaína
 1,Piquet X Hamilton: caso reacende debate sobre punir racismo recreativo
-1,"Morre aos 88 anos o diplomata Sérgio Paulo Rouanet, que deu nome à lei"
+0,"Morre aos 88 anos o diplomata Sérgio Paulo Rouanet, que deu nome à lei"
 0,Condenado pela morte de Dorothy Stang é investigado por invadir terras
 1,"Filha de Romário, Dadá Favatto anuncia gravidez do segundo neto do ex-jogador"
 0,Técnico é investigado após 12 jogadoras denunciarem abuso sexual em SC
@@ -4526,7 +4529,7 @@ sentiment,title
 0,Policial penal atropelado por Porsche levanta da cama pela 1ª vez
 1,"Mira Comunicação amplia time nas áreas de Digital, Criação e RP"
 1,Relator quer colocar vale-Uber e vê espaço para ampliar gastos da 'PEC Kamikaze' a até R$ 50 bi
-1,"Cardeal d. Cláudio Hummes, arcebispo emérito de São Paulo, morre aos 87 anos"
+0,"Cardeal d. Cláudio Hummes, arcebispo emérito de São Paulo, morre aos 87 anos"
 0,Chuvas deixam ao menos dois mortos e 56 mil fora de casa
 1,"Marília Arraes tem 29%, e Raquel Lyra 13% em disputa pelo governo"
 0,Homem condenado à morte no Texas pede adiamento da execução para poder doar rim
@@ -4559,7 +4562,7 @@ sentiment,title
 0,"Israel pode ter atirado contra jornalista sem intenção de matar, concluem EUA"
 1,Tire suas dúvidas sobre a Covid longa em crianças
 1,"Andrea Pratini procura Moa, se declara para ele e os dois transam"
-1,Vídeo mostra nova parte de briga e web reage: 'Ninguém passa pano mais'
+0,Vídeo mostra nova parte de briga e web reage: 'Ninguém passa pano mais'
 1,"Com o Globoplay +canais ao vivo, você assiste a todo o conteúdo do Multishow e muito mais"
 1,Márcio França admite desistir do governo de SP para apoiar Haddad
 0,PM que teve mão decepada ao defender mulher recebe alta no DF
@@ -4617,7 +4620,7 @@ sentiment,title
 1,"Após vencer concorrência, agência CL assume conta da Consigaz"
 1,Bolsonaro pode ser preso? Conheça os 5 inquéritos que ameaçam o presidente
 1,"‘A esquerda não tem o monopólio de querer o bem da sociedade’, diz Fábio Barbosa"
-1,"Bruno Krupp, influenciador sem habilitação que atropelou e matou adolescente, é preso no Rio"
+0,"Bruno Krupp, influenciador sem habilitação que atropelou e matou adolescente, é preso no Rio"
 1,Catedral projetada por Niemeyer ganha releitura de obra de Aleijadinho; veja fotos
 1,"Papa Francisco: mais lento pelo envelhecimento, pontífice encontra lições na fragilidade"
 1,Blog: 7 de Setembro de Bolsonaro em Copacabana preocupa Centrão
@@ -4675,7 +4678,7 @@ sentiment,title
 1,"RealTime Big Data: em SP, Haddad tem 33% e Tarcísio, 20%"
 0,Suspeito coloca fogo em carro de vendedor de frutas em Palmas
 0,Jararaca achada em loja passa por cirurgia após ter cauda necrosada
-1,Incêndio no Setor de Clubes Sul mobiliza Corpo de Bombeiros no DF
+0,Incêndio no Setor de Clubes Sul mobiliza Corpo de Bombeiros no DF
 1,"Em Taguatinga, Ibaneis visita Feira dos Goianos: “Comércio pujante”"
 1,Seleção dos melhores do Brasileirão muda totalmente em relação a 2021
 1,"Romário detona Zagallo, Luxemburgo e Felipão: “Quero que se fo***”"
@@ -4803,7 +4806,7 @@ sentiment,title
 0,"Agressor premeditou ataque a Salman Rushdie, diz promotoria dos EUA"
 1,Hebert Conceição começa no boxe profissional com vitória por nocaute no segundo round
 1,Luva de Pedreiro se encontra com Ronaldo no Valladolid e ganha camisa autografada pelo Fenômeno
-1,Acusado de esfaquear Salman Rushdie se diz inocente
+0,Acusado de esfaquear Salman Rushdie se diz inocente
 1,Palmeiras vence o Corinthians no dérbi e amplia folga na liderança
 1,Vítor Pereira sobre medo de demissão no Corinthians: 'Sabe quanto dinheiro tenho?'
 1,Esposa e filho de Fagner relatam ameaças nas redes sociais após derrota do Corinthians
@@ -4964,7 +4967,7 @@ sentiment,title
 2,"5G será ativado no Rio, Florianópolis, Vitória e Palmas na segunda"
 1,"Lucro da Caixa Econômica recua para R$ 1,8 bilhão no segundo semestre"
 1,Papa pede perdão no Canadá. E na América Latina?
-1,Retinol e vitamina C ajudam a tratar e prevenir rugas na área dos olhos
+2,Retinol e vitamina C ajudam a tratar e prevenir rugas na área dos olhos
 2,"Antidepressivos têm benefícios significativos só em parte dos pacientes, aponta estudo"
 1,Qual foi o melhor show a que você assistiu no Rock in Rio? Conte para a Folha
 1,Bolsonaro se envolve em confusão com youtuber perto do Alvorada
