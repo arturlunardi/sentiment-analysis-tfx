@@ -35,7 +35,7 @@ def create_pipeline(
     ai_platform_training_args: Optional[Dict[Text, Text]] = None,
     ai_platform_serving_args: Optional[Dict[Text, Text]] = None,
     enable_cache: Optional[bool] = False,
-    metadata_connection_co  nfig: Optional[metadata_store_pb2.ConnectionConfig] = None,
+    metadata_connection_config: Optional[metadata_store_pb2.ConnectionConfig] = None,
     ) -> pipeline.Pipeline:
     """Implements the pipeline with TFX."""
 
