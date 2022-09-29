@@ -36,6 +36,7 @@ LOCAL_TRANSFORM_MODULE_FILE = os.path.abspath(os.path.join(os.path.dirname(os.pa
 LOCAL_TRAIN_MODULE_FILE = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), r'../..', 'modules', 'model.py'))
 LOCAL_TUNER_MODULE_PATH = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), r'../..', 'modules', 'best_hyperparameters'))
 LOCAL_DATA_PATH = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), r'../..', 'modules', 'data'))
+LOCAL_LABEL_ENCODER_FILE = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), r'../..', 'modules', 'label_encoder.pkl'))
 
 # Following image will be used to run pipeline components run if Kubeflow
 # Pipelines used.
