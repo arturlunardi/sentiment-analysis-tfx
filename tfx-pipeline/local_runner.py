@@ -25,14 +25,6 @@ METADATA_PATH = os.path.join(OUTPUT_DIR, 'tfx_metadata', configs.PIPELINE_NAME,
 SERVING_MODEL_DIR = os.path.join(PIPELINE_ROOT, 'serving_model')
 
 
-# Specifies data file directory. DATA_PATH should be a directory containing CSV
-# files for CsvExampleGen in this example. By default, data files are in the
-# `data` directory.
-# NOTE: If you upload data files to GCS(which is recommended if you use
-#       Kubeflow), you can use a path starting "gs://YOUR_BUCKET_NAME/path" for
-#       DATA_PATH. For example,
-#       DATA_PATH = 'gs://bucket/chicago_taxi_trips/csv/'.
-
 def run():
   """Define a local pipeline."""
 
@@ -45,10 +37,6 @@ def run():
           tuner_path=configs.LOCAL_TUNER_MODULE_PATH,
           training_module=configs.LOCAL_TRAIN_MODULE_FILE,
           serving_model_dir=SERVING_MODEL_DIR,
-          # TODO(step 7): (Optional) Uncomment here to use provide GCP related
-          #               config for BigQuery with Beam DirectRunner.
-          # beam_pipeline_args=configs.
-          # BIG_QUERY_WITH_DIRECT_RUNNER_BEAM_PIPELINE_ARGS,
           metadata_connection_config=tfx.orchestration.metadata
           .sqlite_metadata_connection_config(METADATA_PATH)
           )
