@@ -30,6 +30,7 @@ TRANSFORM_MODULE_FILE = 'gs://{}/{}/modules/preprocessing.py'.format(GCS_BUCKET_
 TRAIN_MODULE_FILE = 'gs://{}/{}/modules/model.py'.format(GCS_BUCKET_NAME, PIPELINE_NAME)
 TUNER_MODULE_PATH = 'gs://{}/{}/best_hyperparameters/'.format(GCS_BUCKET_NAME, PIPELINE_NAME)
 DATA_PATH = 'gs://{}/{}/data/'.format(GCS_BUCKET_NAME, PIPELINE_NAME)
+TRAIN_MODULE_FILE = 'gs://{}/{}/modules/label_encoder.pkl'.format(GCS_BUCKET_NAME, PIPELINE_NAME)
 
 # LOCAL
 LOCAL_TRANSFORM_MODULE_FILE = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), r'../..', 'modules', 'preprocessing.py'))
@@ -44,7 +45,7 @@ LOCAL_LABEL_ENCODER_FILE = os.path.abspath(os.path.join(os.path.dirname(os.path.
 PIPELINE_IMAGE = f'gcr.io/{GOOGLE_CLOUD_PROJECT}/{PIPELINE_NAME}'
 
 
-# TODO(step 9): (Optional) Uncomment below to use AI Platform training.
+# (Optional) Uncomment below to use AI Platform training.
 GCP_AI_PLATFORM_TRAINING_ARGS = {
     'project': GOOGLE_CLOUD_PROJECT,
     'region': GOOGLE_CLOUD_REGION,
@@ -52,7 +53,7 @@ GCP_AI_PLATFORM_TRAINING_ARGS = {
     # https://cloud.google.com/ml-engine/docs/containers-overview
     # You can specify a custom container here. If not specified, TFX will use
     # a public container image matching the installed version of TFX.
-    # TODO(step 9): (Optional) Set your container name below.
+    # (Optional) Set your container name below.
     'masterConfig': {
       'imageUri': PIPELINE_IMAGE
     },
@@ -64,7 +65,7 @@ GCP_AI_PLATFORM_TRAINING_ARGS = {
 # Cloud AI Platform. For the full set of parameters supported by Google Cloud AI
 # Platform, refer to
 # https://cloud.google.com/ml-engine/reference/rest/v1/projects.models
-# TODO(step 9): (Optional) Uncomment below to use AI Platform serving.
+# (Optional) Uncomment below to use AI Platform serving.
 GCP_AI_PLATFORM_SERVING_ARGS = {
     'model_name': PIPELINE_NAME.replace('-','_'),  # '-' is not allowed.
     'project_id': GOOGLE_CLOUD_PROJECT,

@@ -39,6 +39,7 @@ def create_pipeline(
     ) -> pipeline.Pipeline:
     """Implements the pipeline with TFX."""
 
+    # initialize components list
     components = []
 
     # Brings data into the pipeline or otherwise joins/converts training data.
@@ -71,7 +72,7 @@ def create_pipeline(
     components.append(example_validator)
 
     # Performs transformations and feature engineering in training and serving.
-    transform = Transform(  # pylint: disable=unused-variable
+    transform = Transform(
         examples=example_gen.outputs['examples'],
         schema=schema_gen.outputs['schema'],
         module_file=preprocessing_module,
@@ -175,7 +176,6 @@ def create_pipeline(
 
     components.append(pusher)
  
-    # return pipeline.Pipeline(
     return tfx.dsl.Pipeline(
         pipeline_name=pipeline_name,
         pipeline_root=pipeline_root,
