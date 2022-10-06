@@ -13,7 +13,7 @@ steps:
   id: 'Clone Repository'
   
 - name: 'gcr.io/cloud-builders/gsutil'
-  args: ['cp', '-r', '*.py', 'gs://$_PROJECT-vertex-default/$_PIPELINE_NAME/modules']
+  args: ['cp', '*.py', '*.pkl', 'gs://$_PROJECT-vertex-default/$_PIPELINE_NAME/modules']
   dir: 'sentiment-analysis-tfx/modules'
   id: 'Copy Modules'
   waitFor: ['Clone Repository']
@@ -30,12 +30,6 @@ steps:
   id: 'Copy Hyperparameter'
   waitFor: ['Copy Data']
 
-- name: 'gcr.io/cloud-builders/gsutil'
-  args: ['cp', '*.pkl', 'gs://$_PROJECT-vertex-default/$_PIPELINE_NAME/modules']
-  dir: 'sentiment-analysis-tfx/modules'
-  id: 'Copy LabelEncoder'
-  waitFor: ['Copy Hyperparameter']
-
 - name: 'gcr.io/$_PROJECT/cb-tfx:latest'
   entrypoint: 'tfx'
   args: ['pipeline', 'compile',
@@ -44,7 +38,7 @@ steps:
         ]
   dir: 'sentiment-analysis-tfx/tfx-pipeline'
   id: 'Compile Pipeline'
-  waitFor: ['Copy LabelEncoder']
+  waitFor: ['Copy Hyperparameter']
 
 - name: 'gcr.io/$_PROJECT/cb-tfx:latest'
   entrypoint: 'tfx'

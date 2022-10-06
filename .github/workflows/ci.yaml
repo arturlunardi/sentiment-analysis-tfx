@@ -10,7 +10,7 @@ on:
 env:
   SUBSTITUTIONS: "
             _PROJECT=${{ secrets.GCP_PROJECT_ID }},\
-            _REGION=us-west1,\
+            _REGION=us-east1,\
             _PIPELINE_NAME=sentiment-analysis-tfx,\
             _REPO_URL=https://github.com/arturlunardi/sentiment-analysis-tfx,\
             _BRANCH=master,\

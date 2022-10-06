@@ -32,7 +32,7 @@ def _gzip_reader_fn(filenames):
     '''
 
     # Load the dataset. Specify the compression type since it is saved as `.gz`
-    return tf.data.TFRecordDataset(filenames, compression_type='GZIP') 
+    return tf.data.TFRecordDataset(filenames, compression_type='GZIP')
 
 
 def _input_fn(file_pattern, 
