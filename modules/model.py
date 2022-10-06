@@ -97,7 +97,7 @@ def _raw_input(model, tf_transform_output):
 
     feature_spec.pop(_LABEL_KEY)
 
-    output_features = {} 
+    output_features = {}
 
     for key, spec in feature_spec.items():
       if isinstance(spec, tf.io.VarLenFeature):
