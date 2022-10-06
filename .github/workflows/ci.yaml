@@ -1,0 +1,56 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+env:
+  SUBSTITUTIONS: "
+            _PROJECT=${{ secrets.GCP_PROJECT_ID }},\
+            _REGION=us-central1,\
+            _PIPELINE_NAME=sentiment-analysis-tfx,\
+            _REPO_URL=https://github.com/arturlunardi/sentiment-analysis-tfx,\
+            _BRANCH=main,\
+            "    
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      
+      - id: auth
+        uses: 'google-github-actions/auth@v0'
+        with:
+          credentials_json: ${{ secrets.GCP_CREDENTIALS }}
+
+      - name: Set up Cloud SDK
+        uses: google-github-actions/setup-gcloud@v0
+
+      - name: check if something changed
+        uses: dorny/paths-filter@v2.2.1
+        id: filter
+        with:
+          base: 'main'        
+          filters: |
+            pipeline:
+              - 'tfx-pipeline/**'
+            modules:
+              - 'modules/**'
+      - name: trigger cloud build based on pipeline changes
+        if: ${{ steps.filter.outputs.pipeline == 'true' }}
+        run: |
+          gcloud builds submit --no-source --timeout=60m \
+          --config build/full-pipeline-deployment.yaml \
+          --substitutions $SUBSTITUTIONS \
+          --machine-type=n1-highcpu-8
+      - name: trigger cloud build based on modules changes
+        if: ${{ steps.filter.outputs.modules == 'true' }}
+        run: |
+          gcloud builds submit --no-source --timeout=60m \
+          --config build/partial-pipeline-deployment.yaml \
+          --substitutions $SUBSTITUTIONS \
+          --machine-type=n1-highcpu-8

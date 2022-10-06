@@ -2,5 +2,3 @@ __pycache__/
 .ipynb_checkpoints
 test.ipynb
 old_data.xlsx
-/.github
-/build

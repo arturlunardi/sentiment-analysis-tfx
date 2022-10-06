@@ -1,0 +1,70 @@
+######################################################################################################
+# CI/CD steps for Cloud Build to get a compiled TFX pipeline ready for exectuion.
+# Referenced from:
+# https://github.com/GoogleCloudPlatform/mlops-with-vertex-ai/blob/main/build/pipeline-deployment.yaml
+######################################################################################################
+
+steps:
+- name: 'gcr.io/cloud-builders/git'
+  args: ['clone', '--single-branch', '--branch',
+         '$_BRANCH','$_REPO_URL',
+         '--depth', '1',
+         '--verbose']
+  id: 'Clone Repository'
+  
+- name: 'gcr.io/cloud-builders/gsutil'
+  args: ['cp', '*.py', 'gs://$_PROJECT-vertex-default/$_PIPELINE_NAME/modules']
+  dir: '$_REPO_URL/modules'
+  id: 'Copy Modules'
+  waitFor: ['Clone Repository']
+
+- name: 'gcr.io/cloud-builders/gsutil'
+  args: ['cp', '*.csv', 'gs://$_PROJECT-vertex-default/$_PIPELINE_NAME/data']
+  dir: '$_REPO_URL/modules/data'
+  id: 'Copy Data'
+  waitFor: ['Copy Modules']
+
+- name: 'gcr.io/cloud-builders/gsutil'
+  args: ['cp', '*.txt', 'gs://$_PROJECT-vertex-default/$_PIPELINE_NAME/best_hyperparameters']
+  dir: '$_REPO_URL/modules/best_hyperparameters'
+  id: 'Copy Hyperparameter'
+  waitFor: ['Copy Data']
+
+- name: 'gcr.io/cloud-builders/gsutil'
+  args: ['cp', '*.pkl', 'gs://$_PROJECT-vertex-default/$_PIPELINE_NAME/modules']
+  dir: '$_REPO_URL/modules'
+  id: 'Copy LabelEncoder'
+  waitFor: ['Copy Hyperparameter']
+
+- name: 'gcr.io/$_PROJECT/cb-tfx:latest'
+  entrypoint: 'tfx'
+  args: ['pipeline', 'compile',
+          '--pipeline-path', 'kubeflow_v2_runner.py',
+          '--engine', 'vertex',
+        ]
+  dir: '$_REPO_URL/tfx-pipeline'
+  id: 'Compile Pipeline'
+  waitFor: ['Copy LabelEncoder']
+
+- name: 'gcr.io/$_PROJECT/cb-tfx:latest'
+  entrypoint: 'tfx'
+  args: ['pipeline', 'create',
+          '--pipeline-path', 'kubeflow_v2_runner.py',
+          '--engine', 'vertex',
+          '--build-image'
+        ]
+  dir: '$_REPO_URL/tfx-pipeline'
+  id: 'Create Pipeline'
+  waitFor: ['Compile Pipeline']  
+
+- name: 'gcr.io/$_PROJECT/cb-tfx:latest'
+  entrypoint: 'tfx'
+  args: ['run', 'create',
+          '--engine', 'vertex',
+          '--pipeline-name', '$_PIPELINE_NAME',
+          '--project', '$_PROJECT',
+          '--region', '$_REGION'
+        ]
+  dir: '$_REPO_URL/tfx-pipeline'
+  id: 'Create Pipeline Run'
+  waitFor: ['Create Pipeline']
