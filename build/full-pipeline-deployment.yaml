@@ -14,25 +14,25 @@ steps:
   
 - name: 'gcr.io/cloud-builders/gsutil'
   args: ['cp', '*.py', 'gs://$_PROJECT-vertex-default/$_PIPELINE_NAME/modules']
-  dir: '$_REPO_URL/modules'
+  dir: '$_REPO_URL/tree/$_BRANCH/modules'
   id: 'Copy Modules'
   waitFor: ['Clone Repository']
 
 - name: 'gcr.io/cloud-builders/gsutil'
   args: ['cp', '*.csv', 'gs://$_PROJECT-vertex-default/$_PIPELINE_NAME/data']
-  dir: '$_REPO_URL/modules/data'
+  dir: '$_REPO_URL/tree/$_BRANCH/modules/data'
   id: 'Copy Data'
   waitFor: ['Copy Modules']
 
 - name: 'gcr.io/cloud-builders/gsutil'
   args: ['cp', '*.txt', 'gs://$_PROJECT-vertex-default/$_PIPELINE_NAME/best_hyperparameters']
-  dir: '$_REPO_URL/modules/best_hyperparameters'
+  dir: '$_REPO_URL/tree/$_BRANCH/modules/best_hyperparameters'
   id: 'Copy Hyperparameter'
   waitFor: ['Copy Data']
 
 - name: 'gcr.io/cloud-builders/gsutil'
   args: ['cp', '*.pkl', 'gs://$_PROJECT-vertex-default/$_PIPELINE_NAME/modules']
-  dir: '$_REPO_URL/modules'
+  dir: '$_REPO_URL/tree/$_BRANCH/modules'
   id: 'Copy LabelEncoder'
   waitFor: ['Copy Hyperparameter']
 
@@ -42,7 +42,7 @@ steps:
           '--pipeline-path', 'kubeflow_v2_runner.py',
           '--engine', 'vertex',
         ]
-  dir: '$_REPO_URL/tfx-pipeline'
+  dir: '$_REPO_URL/tree/$_BRANCH/tfx-pipeline'
   id: 'Compile Pipeline'
   waitFor: ['Copy LabelEncoder']
 
@@ -53,7 +53,7 @@ steps:
           '--engine', 'vertex',
           '--build-image'
         ]
-  dir: '$_REPO_URL/tfx-pipeline'
+  dir: '$_REPO_URL/tree/$_BRANCH/tfx-pipeline'
   id: 'Create Pipeline'
   waitFor: ['Compile Pipeline']  
 
@@ -65,6 +65,6 @@ steps:
           '--project', '$_PROJECT',
           '--region', '$_REGION'
         ]
-  dir: '$_REPO_URL/tfx-pipeline'
+  dir: '$_REPO_URL/tree/$_BRANCH/tfx-pipeline'
   id: 'Create Pipeline Run'
   waitFor: ['Create Pipeline']
