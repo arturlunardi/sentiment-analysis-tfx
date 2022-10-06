@@ -1,6 +1,6 @@
 import os
 
-# Pipeline name will be used to identify this pipeline. 
+# Pipeline name will be used to identify this pipeline.
 PIPELINE_NAME = 'sentiment-analysis-tfx'
 
 # GCP related configs.
