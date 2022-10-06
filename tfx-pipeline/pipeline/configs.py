@@ -30,7 +30,7 @@ TRANSFORM_MODULE_FILE = 'gs://{}/{}/modules/preprocessing.py'.format(GCS_BUCKET_
 TRAIN_MODULE_FILE = 'gs://{}/{}/modules/model.py'.format(GCS_BUCKET_NAME, PIPELINE_NAME)
 TUNER_MODULE_PATH = 'gs://{}/{}/best_hyperparameters/'.format(GCS_BUCKET_NAME, PIPELINE_NAME)
 DATA_PATH = 'gs://{}/{}/data/'.format(GCS_BUCKET_NAME, PIPELINE_NAME)
-TRAIN_MODULE_FILE = 'gs://{}/{}/modules/label_encoder.pkl'.format(GCS_BUCKET_NAME, PIPELINE_NAME)
+LABEL_ENCODER_FILE = 'gs://{}/{}/modules/label_encoder.pkl'.format(GCS_BUCKET_NAME, PIPELINE_NAME)
 
 # LOCAL
 LOCAL_TRANSFORM_MODULE_FILE = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), r'../..', 'modules', 'preprocessing.py'))
