@@ -13,7 +13,7 @@ env:
             _REGION=us-central1,\
             _PIPELINE_NAME=sentiment-analysis-tfx,\
             _REPO_URL=https://github.com/arturlunardi/sentiment-analysis-tfx,\
-            _BRANCH=main,\
+            _BRANCH=master,\
             "    
 jobs:
   build:
@@ -34,7 +34,7 @@ jobs:
         uses: dorny/paths-filter@v2.2.1
         id: filter
         with:
-          base: 'main'        
+          base: 'master'        
           filters: |
             pipeline:
               - 'tfx-pipeline/**'
