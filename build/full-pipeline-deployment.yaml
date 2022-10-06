@@ -14,10 +14,10 @@ steps:
 
 - name: gcr.io/cloud-builders/gcloud:latest
   entrypoint: "ls"
-  args: ["-lah","/workspace/sentiment-analysis-tfx"]
+  args: ["-lah","/workspace/sentiment-analysis-tfx/modules"]
   
 - name: 'gcr.io/cloud-builders/gsutil'
-  args: ['cp', '*.py', 'gs://$_PROJECT-vertex-default/$_PIPELINE_NAME/modules']
+  args: ['cp', '-r', '*.py', 'gs://$_PROJECT-vertex-default/$_PIPELINE_NAME/modules']
   dir: '$_REPO_URL/modules'
   id: 'Copy Modules'
   waitFor: ['Clone Repository']
