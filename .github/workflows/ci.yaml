@@ -48,7 +48,7 @@ jobs:
           --substitutions $SUBSTITUTIONS \
           --machine-type=n1-highcpu-8
       - name: trigger cloud build based on modules changes
-        if: ${{ steps.filter.outputs.modules == 'true' }}
+        if: ${{ steps.filter.outputs.modules == 'true' && steps.filter.outputs.pipeline == 'false' }}
         run: |
           gcloud builds submit --no-source --timeout=60m \
           --config build/partial-pipeline-deployment.yaml \
