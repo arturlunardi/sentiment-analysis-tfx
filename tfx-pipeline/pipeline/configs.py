@@ -16,7 +16,7 @@ try:
 except ImportError:
     GOOGLE_CLOUD_PROJECT = ''
 
-# Specify your GCS bucket name here. You have to use GCS to store output files
+# Specify your GCS bucket name here. You have to use GCS to store output files 
 # when running a pipeline with Kubeflow Pipeline on GCP or when running a job
 # using Dataflow. Default is '<gcp_project_name>-kubeflowpipelines-default'.
 # This bucket is created automatically when you deploy KFP from marketplace.
