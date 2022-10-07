@@ -39,9 +39,9 @@ def run():
                         training_module=configs.TRAIN_MODULE_FILE,
                         serving_model_dir=SERVING_MODEL_DIR,
                         # TODO(step 9): (Optional) Uncomment below to use Cloud AI Platform.
-                        ai_platform_training_args=configs.GCP_AI_PLATFORM_TRAINING_ARGS,
+                        # ai_platform_training_args=configs.GCP_AI_PLATFORM_TRAINING_ARGS,
                         # TODO(step 9): (Optional) Uncomment below to use Cloud AI Platform.
-                        ai_platform_serving_args=configs.GCP_AI_PLATFORM_SERVING_ARGS,
+                        # ai_platform_serving_args=configs.GCP_AI_PLATFORM_SERVING_ARGS,
                         )
     
     runner = kubeflow_v2_dag_runner.KubeflowV2DagRunner(config=runner_config)
