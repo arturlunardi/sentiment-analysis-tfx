@@ -108,7 +108,11 @@ def _raw_input(model, tf_transform_output):
     transformed_features = model.tft_layer(output_features)
 
     outputs = model(transformed_features) 
-    return {'outputs': outputs}
+    return {
+      'probabilities': outputs,
+      'label_key': tf.argmax(outputs, axis=1),
+      'prediction_confidence': tf.reduce_max(outputs, axis=1)
+      }
 
   return _fn_raw_input
 
